@@ -1,0 +1,122 @@
+body {
+  background: url("images/outside-hamock1.jpg") no-repeat center center;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 5;
+  margin: 0;
+}
+
+.list-unstyled-modal,
+.modal-title {
+  font-size: 1.7em;
+}
+
+.list-unstyled-modal li {
+  padding: 5px;
+}
+
+#hero-excursions {
+  background: url("images/africa_background.jpg") no-repeat center center;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 5;
+}
+#hero-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  height: 15vh;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+/*
+.jumbotron,
+.navbar {
+  background-color: rgba(155, 152, 152, 0.5);
+  margin: 0;
+}
+*/
+.hotel-welcome {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 7em;
+}
+.hotel-name {
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-size: 9em;
+}
+
+.form-group {
+  margin: 0px;
+}
+.carousel {
+  margin: 50px 0;
+}
+
+#reserveForm {
+  background: #999898;
+}
+#loginModal .modal-header {
+  background: #901cad;
+  color: #fff;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  background-color: rgba(246, 243, 243, 0.5);
+}
+
+#reserveButton .modal-header {
+  background: #17a2b8;
+  color: #fff;
+}
+
+.row-content {
+  padding: 50px 0;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  color: #fff;
+  background-color: rgba(62, 64, 85, 0.5);
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}
+
+.justify-content-start a {
+  padding: 6px;
+}
+.jumbotron-text a {
+  cursor: pointer;
+}
+
+.carousel-inner {
+  border: 7px solid rgba(246, 243, 243, 0.5);
+}
